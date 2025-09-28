@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/sami-dev/aws-s3-static-website-sample'
+                    url: 'https://github.com/sushanth-max/frontend-app.git'
             }
         }
 
